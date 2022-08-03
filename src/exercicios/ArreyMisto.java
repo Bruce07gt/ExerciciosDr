@@ -27,7 +27,7 @@ public class ArreyMisto {
         }
         System.out.println();
         for (i = 1; i<n.length; i++) {
-            if (i % 2 != 0 && i % 3 != 0 && i % 7 != 0 && i % 5 != 0 && i > 1 || i ==2 || i == 3 || i == 5 || i == 7) {
+            if (n[i] % 2 != 0 && n[i] % 3 != 0 && n[i] % 7 != 0 && n[i] % 5 != 0 && n[i] > 1 || n[i] ==2 || n[i] == 3 || n[i] == 5 || n[i] == 7) {
                 System.out.print(n[i]+" ");
             }
         }
